@@ -13,7 +13,7 @@
 }
 
 @mixin viewport--lg {
-  @media (max-width: $viewport--xl - 1) {
+  @media (min-width: $viewport--lg) {
     @content;
   }
 }

@@ -14,12 +14,15 @@
 @import "global/utils";
 @import "global/container";
 @import "global/wrapper";
+@import "global/animations";
 
 // Blocks
 //---------------------------------
-
+@import "blocks/page-wrapper";
 @import "blocks/header";
 @import "blocks/content";
+@import "blocks/logo-icon";
+@import "blocks/loader";
 
 
 // используйте это для отключения ховеров на тач устройствах

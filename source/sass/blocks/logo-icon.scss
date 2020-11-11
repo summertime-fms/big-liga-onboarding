@@ -1,0 +1,17 @@
+.logo-icon--blue {
+  @include viewport--lg {
+    fill: $color-neon-blue;
+  }
+}
+
+.logo-icon--violet {
+  @include viewport--lg {
+    fill: $color-vivid-violet;
+  }
+}
+
+.logo-icon--red {
+  @include viewport--lg {
+    fill: $color-torch-red;
+  }
+}
