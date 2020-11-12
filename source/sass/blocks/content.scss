@@ -3,8 +3,10 @@
   // min-height: calc(100vh - 74px);
   align-items: center;
   height: 100%;
+  transition: $default-transition-settings;
 
   h1 {
+    font-weight: 400;
     font-size: 96px;
     line-height: 1;
 
@@ -39,10 +41,21 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
   height: 100%;
   background-color: $color-neon-blue;
 
+  p {
+    width: 50%;
+  }
+
   @include viewport--lg {
     background-color: $color-default-white;
+    flex-shrink: 1;
   }
+}
+
+.content.show-more {
+  transform: translateX(-100vw);
 }

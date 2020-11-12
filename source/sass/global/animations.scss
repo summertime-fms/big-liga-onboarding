@@ -7,3 +7,15 @@
     transform: scale(1);
   }
 }
+
+@keyframes fading {
+  50% {
+    color: rgba(0, 0, 0, 0);
+  }
+
+
+  100% {
+    color: rgba(0, 0, 0, 1);
+  }
+}
+

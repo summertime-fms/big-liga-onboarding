@@ -4,6 +4,7 @@ import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/init-modals';
 
 import {initLoader} from './modules/init-loader';
+import {showMore} from './modules/show-additional-info';
 
 
 // Utils
@@ -16,5 +17,5 @@ iosVhFix();
 // ---------------------------------
 
 initModals();
-
 initLoader();
+showMore();
